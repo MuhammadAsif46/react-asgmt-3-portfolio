@@ -1,5 +1,5 @@
 import smileLogo from "./img/smile_logo-removebg-preview.png";
-import { BiGlobe, BiLogoLinkedin, BiLogoFacebook,BiLogoTwitter} from 'react-icons/bi';
+import { BiGlobe, BiLogoLinkedin, BiLogoFacebook,BiLogoTwitter, BiLogoInstagram, BiLogoPinterestAlt} from 'react-icons/bi';
 import { BsList } from "react-icons/bs";
 import "./App.css";
 
@@ -50,6 +50,7 @@ function App() {
               </p>
             </div>
           </div>
+          
           <div className="port-services">
             <div className="sevices">Services</div>
             <div className="ser-paragraph">
@@ -65,12 +66,15 @@ function App() {
               <li>
                 <a href=""><BiLogoFacebook/></a>
                 <a href=""><BiLogoTwitter/></a>
-                <a href=""></a>
-                <a href=""></a>
+                <a href=""><BiLogoInstagram/></a>
+                <a href=""><BiLogoPinterestAlt/></a>
               </li>
             </div>
           </div>
         </div> 
+      </div>
+      <div className="port-circle">
+        <div className="circle"></div>
       </div>
       <div className="box-2"></div>
           

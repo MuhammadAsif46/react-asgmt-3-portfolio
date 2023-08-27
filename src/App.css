@@ -85,15 +85,36 @@ div.hero-section{
   border: 1px solid #fff;
   margin-top: 50px;
   padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
 }
 
 div.port-name{
   border: 1px solid red;
+  margin: 10px 0px 0px 0px ;
+  flex: 2;
 }
 
 
 
-/* div.port-services{
+div.port-services{
   border: 1px solid #fff;
-} */
+  flex: 1;
+}
+/* dsauvacbabc */
 
+div.port-circle{
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  
+}
+
+div.circle{
+  border: 1px solid;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  
+}
