@@ -1,3 +1,4 @@
+import smileLogo from "./img/smile_logo-removebg-preview.png";
 import { BiSmile, BiGlobe, BiLogoLinkedin} from 'react-icons/bi';
 import { BsList } from "react-icons/bs";
 import "./App.css";
@@ -12,11 +13,14 @@ function App() {
       <div className="box-1">
         <nav>
           <div className="port-nav">
-            <div><BiSmile className='yellow'/>ASIF</div>
+            <div className="port-smile-img">
+              <img className="smile-logo" src={smileLogo}  alt="smileLogo" />
+              ASIF
+            </div>
             <div className='pages'>
                 <a className="page" href="">Home</a>
                 <a className="page" href="">Portfolio</a>
-                <a className="page" href="">contact</a>
+                <a className="page" href="">Contact</a>
                 <a className="page" href="">About</a>
             </div>
             <div className='icons'>
