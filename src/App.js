@@ -1,5 +1,5 @@
 import smileLogo from "./img/smile_logo-removebg-preview.png";
-import { BiSmile, BiGlobe, BiLogoLinkedin} from 'react-icons/bi';
+import { BiGlobe, BiLogoLinkedin, BiLogoFacebook,BiLogoTwitter} from 'react-icons/bi';
 import { BsList } from "react-icons/bs";
 import "./App.css";
 
@@ -37,7 +37,7 @@ function App() {
         <div className="hero-section">
           <div className="port-name">
             <div>
-              I`m <br /><span>Muhammad Asif</span>
+              I`m <br /><span className="name">Muhammad Asif</span>
             </div>
             <div className="port-line"> </div>
             <div className="port-paragraph">
@@ -51,7 +51,24 @@ function App() {
             </div>
           </div>
           <div className="port-services">
-
+            <div className="sevices">Services</div>
+            <div className="ser-paragraph">
+              <p> Let's build quality products in <br/>
+                programming and design <br/>
+                with my services
+              </p>
+            </div>
+            <div className="show-more">
+              show more <span></span>
+            </div>
+            <div className="social-icons">
+              <li>
+                <a href=""><BiLogoFacebook/></a>
+                <a href=""><BiLogoTwitter/></a>
+                <a href=""></a>
+                <a href=""></a>
+              </li>
+            </div>
           </div>
         </div> 
       </div>

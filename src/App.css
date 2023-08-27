@@ -83,6 +83,8 @@ div.icons > ul > li > a > .icon{
 
 div.hero-section{
   border: 1px solid #fff;
+  margin-top: 50px;
+  padding: 20px;
 }
 
 div.port-name{
@@ -91,7 +93,7 @@ div.port-name{
 
 
 
-div.port-services{
+/* div.port-services{
   border: 1px solid #fff;
-}
+} */
 
