@@ -42,13 +42,13 @@ div.main{
   border: 1px solid black;
   max-width: 70%;
   background-color: #293241;
+  color: #fff;
 }
 
 div.port-nav{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  color: #fff;
   margin: 10px 0;
 }
 
@@ -75,7 +75,23 @@ div.icons {
   flex: 1;
 }
 
-div.icons > ul > li > .icon{
+div.icons > ul > li > a > .icon{
   margin: 0 5px;
+}
+
+/* hero-section */
+
+div.hero-section{
+  border: 1px solid #fff;
+}
+
+div.port-name{
+  border: 1px solid red;
+}
+
+
+
+div.port-services{
+  border: 1px solid #fff;
 }
 

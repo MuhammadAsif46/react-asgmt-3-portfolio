@@ -15,7 +15,7 @@ function App() {
           <div className="port-nav">
             <div className="port-smile-img">
               <img className="smile-logo" src={smileLogo}  alt="smileLogo" />
-              ASIF
+              Asif
             </div>
             <div className='pages'>
                 <a className="page" href="">Home</a>
@@ -25,11 +25,35 @@ function App() {
             </div>
             <div className='icons'>
               <ul>
-                <li> <BiGlobe className='icon'/> <BiLogoLinkedin className='icon'/> <BsList className='icon'/> </li>
+                <li> 
+                  <a href=""><BiGlobe className='icon'/></a> 
+                  <a href=""><BiLogoLinkedin className='icon'/></a> 
+                  <a href=""><BsList className='icon'/> </a>
+                </li>
               </ul>
             </div>
           </div>
-        </nav>  
+        </nav> 
+        <div className="hero-section">
+          <div className="port-name">
+            <div>
+              I`m <br /><span>Muhammad Asif</span>
+            </div>
+            <div className="port-line"> </div>
+            <div className="port-paragraph">
+              <p>
+                A freelancer who provide <br/>
+                services for digital programming <br/>
+                and design content needs,for <br/>
+                all businessess more than <br/>
+                10 years of experiense.
+              </p>
+            </div>
+          </div>
+          <div className="port-services">
+
+          </div>
+        </div> 
       </div>
       <div className="box-2"></div>
           
