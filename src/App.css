@@ -3,12 +3,23 @@
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 body{
   background-color: #415a77;
 }
-#root{
+
+/* #root{
   display: flex;
   justify-content: center;
+} */
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+li{
+  list-style: none;
 }
 
 /* Heading styles */
@@ -27,3 +38,28 @@ div.heading > h1 >span{
 
 /* container */
 
+div.main{
+  border: 1px solid black;
+  max-width: 70%;
+  background-color: #293241;
+}
+
+div.port-nav{
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+}
+
+div.pages{
+  background-color: red;
+}
+div.pages > a{
+  margin: 0 20px;
+}
+div.icons {
+  margin-left: 60px;
+}
+
+div.icons > ul > li > .icon{
+  margin: 0 5px;
+}
