@@ -18,18 +18,18 @@ function App() {
               Asif
             </div>
             <div className='pages'>
-                <a className="page" href="">Home</a>
-                <a className="page" href="">Portfolio</a>
-                <a className="page" href="">Contact</a>
-                <a className="page" href="">About</a>
+              <ul>
+                <li><a className="page" href="">Home</a></li>
+                <li><a className="page" href="">Portfolio</a></li>
+                <li><a className="page" href="">Contact</a></li>
+                <li> <a className="page" href="">About</a></li>
+              </ul>
             </div>
             <div className='icons'>
               <ul>
-                <li> 
-                  <a href=""><BiGlobe className='icon'/></a> 
-                  <a href=""><BiLogoLinkedin className='icon'/></a> 
-                  <a href=""><BsList className='icon'/> </a>
-                </li>
+                  <li><a href=""><BiGlobe className='icon'/></a></li> 
+                  <li><a href=""><BiLogoLinkedin className='icon'/></a></li> 
+                  <li><a href=""><BsList className='icon'/> </a></li>
               </ul>
             </div>
           </div>

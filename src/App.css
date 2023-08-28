@@ -49,14 +49,15 @@ div.port-nav{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 10px 0;
+  height: 60px;
+  background-color:black;
 }
 
 div.port-smile-img{
   display: flex;
   justify-content: center;
   align-items: center;
-  flex: 1;
+  /* flex: 1; */
 }
 
 div >.smile-logo{
@@ -64,19 +65,27 @@ div >.smile-logo{
   height: 20px;
 }
 
+div.pages > ul {
+  display: flex;
+  justify-content:space-between;
+  background-color: red;
+}
+div.pages > ul > li {
+  margin: 0 0.7em;
+}
 div.pages{
-  margin-left: 40px;
-  flex: 4;
+  /* margin-left: 40px; */
+  /* flex: 4; */
 }
 div.pages > a{
-  margin: 0 20px;
+  /* margin: 0 20px; */
 }
 div.icons {
-  flex: 1;
+  /* flex: 1; */
 }
 
 div.icons > ul > li > a > .icon{
-  margin: 0 5px;
+  /* margin: 0 5px; */
 }
 
 /* hero-section */
