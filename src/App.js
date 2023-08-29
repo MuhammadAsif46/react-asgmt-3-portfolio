@@ -1,6 +1,7 @@
 import smileLogo from "./img/smile_logo-removebg-preview.png";
-import { BiGlobe, BiLogoLinkedin, BiLogoFacebook,BiLogoTwitter, BiLogoInstagram, BiLogoPinterestAlt} from 'react-icons/bi';
-import { BsList } from "react-icons/bs";
+import { BiGlobe, BiLogoLinkedin, BiLogoFacebook,BiLogoTwitter, BiLogoInstagram, BiLogoPinterestAlt, BiArrowBack, BiArrowFromRight, BiArrowToRight} from 'react-icons/bi';
+import { BsList ,BsArrowRight } from "react-icons/bs";
+// import { FaArrowRightLong } from "react-icons/fa";
 import "./App.css";
 
 /* <div className="heading">
@@ -53,21 +54,21 @@ function App() {
          
           <div className="port-services">
             <div className="sevices">Services</div>
-            <div className="ser-paragraph">
+            <div className="service-paragraph">
               <p> Let's build quality products in <br/>
                 programming and design <br/>
                 with my services
               </p>
             </div>
             <div className="show-more">
-              show more <span></span>
+              show more <span className="arrow-icon"><BsArrowRight style={{}}/></span>
             </div>
             <div className="social-icons">
               <ul>
                 <li><a href=""><BiLogoFacebook/></a></li>
-                <li><a href=""><BiLogoTwitter/></a></li>
-                <li><a href=""><BiLogoInstagram/></a></li>
-                <li><a href=""><BiLogoPinterestAlt/></a></li>
+                <li className="social" ><a href=""><BiLogoTwitter/></a></li>
+                <li className="social" ><a href=""><BiLogoInstagram/></a></li>
+                <li className="social" ><a href=""><BiLogoPinterestAlt/></a></li>
               </ul>
             </div>
           </div>
