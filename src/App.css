@@ -101,14 +101,29 @@ div.hero-section{
 
 div.port-info{
   border: 1px solid red;
-  margin: 10px 0px 0px 0px ;
+  margin: 20px 0px 0px 0px ;
   padding: 0.6em;
   flex: 2;
 }
 
 div.port-line{
-  border: 1px solid yellow;
-  max-width: 8em;
+  border: 2px solid yellow;
+  max-width: 8.5em;
+  margin: 1em 0;
+}
+
+div.name{
+  font-size: 2em;
+  color: #ccc;
+}
+
+span.name-size{
+  font-size: 1.5em;
+  color: #fff;
+}
+
+p.para{
+  line-height: 1.25em;
 }
 
 div.port-services{
@@ -132,6 +147,7 @@ div.circle{
   height: 300px;
   width: 300px;
   border-radius: 50%;
-  margin-top: -13em;
+  margin-top: -19em;
+  margin-bottom: 20px;
   
 }

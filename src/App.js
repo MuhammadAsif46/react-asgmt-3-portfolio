@@ -41,7 +41,7 @@ function App() {
             </div>
             <div className="port-line"> </div>
             <div className="port-paragraph">
-              <p>
+              <p className="para">
                 A freelancer who provide <br/>
                 services for digital programming <br/>
                 and design content needs,for <br/>
