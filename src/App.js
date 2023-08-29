@@ -22,22 +22,22 @@ function App() {
                 <li><a className="page" href="">Home</a></li>
                 <li><a className="page" href="">Portfolio</a></li>
                 <li><a className="page" href="">Contact</a></li>
-                <li> <a className="page" href="">About</a></li>
+                <li><a className="page" href="">About</a></li>
               </ul>
             </div>
             <div className='icons'>
               <ul>
-                  <li><a href=""><BiGlobe className='icon'/></a></li> 
-                  <li><a href=""><BiLogoLinkedin className='icon'/></a></li> 
-                  <li><a href=""><BsList className='icon'/> </a></li>
+                  <li><a className="icon" href=""> <BiGlobe/></a> </li> 
+                  <li><a className="icon" href=""> <BiLogoLinkedin/> </a></li> 
+                  <li><a className="icon" href=""> <BsList/> </a></li>
               </ul>
             </div>
           </div>
         </nav> 
         <div className="hero-section">
-          <div className="port-name">
-            <div>
-              I`m <br /><span className="name">Muhammad Asif</span>
+          <div className="port-info">
+            <div className="name">
+              I`m <br /><span className="name-size">Muhammad Asif</span>
             </div>
             <div className="port-line"> </div>
             <div className="port-paragraph">
@@ -50,7 +50,7 @@ function App() {
               </p>
             </div>
           </div>
-          
+         
           <div className="port-services">
             <div className="sevices">Services</div>
             <div className="ser-paragraph">
@@ -63,12 +63,12 @@ function App() {
               show more <span></span>
             </div>
             <div className="social-icons">
-              <li>
-                <a href=""><BiLogoFacebook/></a>
-                <a href=""><BiLogoTwitter/></a>
-                <a href=""><BiLogoInstagram/></a>
-                <a href=""><BiLogoPinterestAlt/></a>
-              </li>
+              <ul>
+                <li><a href=""><BiLogoFacebook/></a></li>
+                <li><a href=""><BiLogoTwitter/></a></li>
+                <li><a href=""><BiLogoInstagram/></a></li>
+                <li><a href=""><BiLogoPinterestAlt/></a></li>
+              </ul>
             </div>
           </div>
         </div> 
