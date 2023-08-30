@@ -97,9 +97,34 @@ function App() {
       </div>
       
       <div className="box-3">
-        <div></div>
-        <div></div>
-        <div></div>
+        <div className="port-needs">
+          <div><h2>What Can I Do For <br /> Your Needs</h2></div>
+          <div>
+            <p>
+              It is easier to entrust the work to the <br/>
+              experts because they are able to provide <br/>
+              the best results with reliable quality
+            </p>
+          </div>
+          <div className="port-projects">
+            <div>
+              <div>
+                <strong className="yellow"> 250+ </strong> <br/>
+                project completed
+              </div>
+              <div>
+                <strong className="yellow"> 30+ </strong> <br/>
+                contract remote
+              </div>
+            </div>
+
+            <div>
+              
+            </div>
+          </div>
+        </div>
+
+        <div className="port-skills"></div>
       </div>
           
     </div>

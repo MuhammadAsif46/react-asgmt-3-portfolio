@@ -211,17 +211,30 @@ div.box-2{
     padding: 0px 1.2em;
 }
 
-/* box-3 */
-div.box-3{
-  background-color: #2d343b;
-  height: 500px;
-  margin-top: -3.5em;
-  /* position: relative; */
-}
-
 div.link{
   border: 1px solid;
   padding: 0.3rem 1rem;
   margin: 0 1rem;
   flex-grow: 1;
 }
+
+/* box-3 */
+
+div.box-3{
+  border: 2px solid red;
+  background-color: #2d343b;
+  height: 500px;
+  margin-top: -3.5em;
+  /* display: flex; */
+}
+
+div.port-needs{
+  border: 1px solid blue;
+  margin-top: 5em;
+}
+
+div.port-skills{
+  border: 1px solid purple;
+  margin-top: 5em;
+}
+
