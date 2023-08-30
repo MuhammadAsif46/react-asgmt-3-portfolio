@@ -41,7 +41,7 @@ div.heading > h1 >span{
 div.main{
   border: 1px solid black;
   max-width: 70%;
-  background-color: #293241;
+  background-color: #394450;
   color: #fff;
 }
 
@@ -195,32 +195,33 @@ div.circle{
 
 div.port-links{
   display: flex;
-  justify-content: space-evenly;
   align-items: center ;
   border: 1px solid;
   margin: 10px 0;
-  max-width: 52em;
+  /* max-width: 55em; */
   height: 5.5em;
+  background-color: red;
 }
-div.meta{
-  border: 1px solid;
-  flex: 1;
-}
-div.google{
-  border: 1px solid;
-  flex: 1;
-}
-div.linked-in{
-  border: 1px solid;
-  flex: 1;
-}
-div.slack{
-  border: 1px solid;
-  flex: 1;
-}
+
 /* box-2 */
 
 div.box-2{
-  background-color: aqua;
+    border: 1px solid;
+    position: relative;
+    padding: 0px 1.2em;
+}
+
+/* box-3 */
+div.box-3{
+  background-color: #2d343b;
   height: 500px;
+  margin-top: -3.5em;
+  /* position: relative; */
+}
+
+div.link{
+  border: 1px solid;
+  padding: 0.3rem 1rem;
+  margin: 0 1rem;
+  flex-grow: 1;
 }

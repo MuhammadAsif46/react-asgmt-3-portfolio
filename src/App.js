@@ -78,23 +78,28 @@ function App() {
       <div className="port-circle">
         <div className="circle"></div>
       </div>
-      <div className="port-links">
-          <div className="meta">
+      <div className="box-2">
+        <div className="port-links">
+          <div className="meta link">
             hello
             {/* <img src={metaLogo} alt="meta-logo" /> */}
           </div>
-          <div className="google">
+          <div className="google link">
             hello
           </div>
-          <div className="linked-in">
+          <div className="linked-in link">
             hello
           </div>
-          <div className="slack">
+          <div className="slack link">
             hello
           </div>
+        </div>
       </div>
-      <div className="box-2">
-
+      
+      <div className="box-3">
+        <div></div>
+        <div></div>
+        <div></div>
       </div>
           
     </div>
