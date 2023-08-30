@@ -1,4 +1,5 @@
 import smileLogo from "./img/smile_logo-removebg-preview.png";
+import metaLogo from "./img/meta_pics-removebg-preview.png";
 import { BiGlobe, BiLogoLinkedin, BiLogoFacebook,BiLogoTwitter, BiLogoInstagram, BiLogoPinterestAlt, BiArrowBack, BiArrowFromRight, BiArrowToRight} from 'react-icons/bi';
 import { BsList ,BsArrowRight } from "react-icons/bs";
 // import { FaArrowRightLong } from "react-icons/fa";
@@ -61,7 +62,7 @@ function App() {
               </p>
             </div>
             <div className="show-more">
-              show more <span className="arrow-icon"><BsArrowRight style={{}}/></span>
+              show more <span className="arrow-icon"> <a href=""><BsArrowRight/></a></span>
             </div>
             <div className="social-icons">
               <ul>
@@ -77,7 +78,24 @@ function App() {
       <div className="port-circle">
         <div className="circle"></div>
       </div>
-      <div className="box-2"></div>
+      <div className="port-links">
+          <div className="meta">
+            hello
+            {/* <img src={metaLogo} alt="meta-logo" /> */}
+          </div>
+          <div className="google">
+            hello
+          </div>
+          <div className="linked-in">
+            hello
+          </div>
+          <div className="slack">
+            hello
+          </div>
+      </div>
+      <div className="box-2">
+
+      </div>
           
     </div>
   );
